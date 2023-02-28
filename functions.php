@@ -15,3 +15,17 @@ function themeStyles()
 }
 
 add_action('wp_enqueue_scripts', 'themeStyles');
+
+
+// Menus
+function addMenus()
+{
+  $locations = array(
+    'primary' => 'Desktop Primary Menu',
+    'footer' => 'Footer Menu',
+  );
+
+  register_nav_menus($locations);
+}
+
+add_action('init', 'addMenus');
