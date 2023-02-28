@@ -1,5 +1,8 @@
 <?php
 
+// Add a dynamic title tag support
+add_theme_support('title-tag');
+
 function themeStyles()
 {
   wp_enqueue_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css');
