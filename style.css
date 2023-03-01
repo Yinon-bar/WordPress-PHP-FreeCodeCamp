@@ -72,6 +72,12 @@ h6 {
   font-weight: bold;
 }
 
+/* ul li.nav-item a {
+  color: #eeeeee;
+  text-decoration: none;
+  font-size: 1.2rem;
+} */
+
 .btn {
   font-weight: bold;
   padding: 0.375rem 1rem;
@@ -149,24 +155,27 @@ h6 {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(256,256,256, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.header .nav-item {
+.header .nav-item a {
+  text-decoration: none;
+  color: #eeeeee;
   font-weight: bold;
 }
-
-.header .nav-item.active .nav-link {
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.header .nav-item.active .nav-link:hover {
+.header .nav-item a:hover {
+  font-weight: bold;
   text-decoration: none;
 }
 
-.header .nav-item .nav-link {
-  color: rgba(255, 255, 255, 0.8);
+.header .nav-item.active a {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
 }
 
-.header .nav-item .nav-link:hover {
-  text-decoration: underline;
+.header .nav-item.active a:hover {
+  text-decoration: none;
+}
+
+.header .nav-item a:hover {
+  text-decoration: none;
   color: rgba(0, 0, 0, 0.6);
 }
 .logo {
