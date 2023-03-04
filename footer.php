@@ -8,7 +8,7 @@
 
 <?php wp_footer() ?>
 
-<?php echo "try6" ?>
+<?php echo "try7" ?>
 
 </body>
 
