@@ -8,8 +8,6 @@
 
 <?php wp_footer() ?>
 
-<?php echo "try15" ?>
-
 </body>
 
 </html>
